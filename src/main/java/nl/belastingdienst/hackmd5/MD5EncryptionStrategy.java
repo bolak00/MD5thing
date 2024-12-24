@@ -1,11 +1,14 @@
 package nl.belastingdienst.hackmd5;
 
+import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+
+@ApplicationScoped
 public class MD5EncryptionStrategy {
 
     @Inject

@@ -59,6 +59,11 @@
             <version>3.2.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.eclipse.microprofile.openapi</groupId>
+            <artifactId>microprofile-openapi-api</artifactId>
+            <version>4.0</version>
+        </dependency>
 
         <dependency>
             <groupId>org.postgresql</groupId>

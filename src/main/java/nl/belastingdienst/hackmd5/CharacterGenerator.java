@@ -21,4 +21,11 @@ public class CharacterGenerator {
 
         this.alphabet = Collections.unmodifiableList(chars);
     }
+
+    public String generate(Integer length) {
+        // TODO: Generate all posibilities of 1 to 4 characters
+        return null;
+    }
+
+
 }
