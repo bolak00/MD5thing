@@ -21,7 +21,6 @@ public class MD5EncryptionStrategy {
             MessageDigest m = MessageDigest.getInstance(ALGORITHM);
             m.update(phrase.getBytes(), 0, phrase.length());
             String md5UserPass = new BigInteger(1, m.digest()).toString(16);
-            md5Repo.save(MD5.builder().hash(md5UserPass).phrase(phrase).build());
             return md5UserPass;
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();

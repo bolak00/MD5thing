@@ -22,6 +22,7 @@ public class MD5Repo {
         return md5;
     }
 
+
     public Optional<MD5> findHash(String hash) {
         return Optional.ofNullable(entityManager.find(MD5.class, hash));
     }

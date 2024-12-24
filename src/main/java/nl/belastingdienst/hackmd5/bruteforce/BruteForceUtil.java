@@ -8,6 +8,8 @@ import nl.belastingdienst.hackmd5.md5.MD5Repo;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.concurrent.CompletableFuture;
+import java.util.stream.Collectors;
 
 @ApplicationScoped
 public class BruteForceUtil {
