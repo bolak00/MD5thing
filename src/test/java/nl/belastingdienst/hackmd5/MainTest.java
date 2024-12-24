@@ -1,6 +1,6 @@
 package nl.belastingdienst.hackmd5;
 
-import nl.belastingdienst.hackmd5.character.CharacterGenerator;
+import nl.belastingdienst.hackmd5.bruteforce.CharacterGenerator;
 import nl.belastingdienst.hackmd5.md5.MD5;
 import nl.belastingdienst.hackmd5.md5.MD5EncryptionStrategy;
 import nl.belastingdienst.hackmd5.md5.MD5Repo;

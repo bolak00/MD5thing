@@ -1,12 +1,15 @@
-package nl.belastingdienst.hackmd5.character;
+package nl.belastingdienst.hackmd5.bruteforce;
+
+import jakarta.enterprise.context.ApplicationScoped;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+@ApplicationScoped
 public class CharacterGenerator {
 
-    private List<String> alphabet;
+    private final List<String> alphabet;
 
     public CharacterGenerator() {
         List<String> chars = new ArrayList<>();
