@@ -1,4 +1,4 @@
-package nl.belastingdienst.hackmd5;
+package nl.belastingdienst.hackmd5.md5;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

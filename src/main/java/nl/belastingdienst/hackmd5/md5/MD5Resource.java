@@ -1,4 +1,4 @@
-package nl.belastingdienst.hackmd5;
+package nl.belastingdienst.hackmd5.md5;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
